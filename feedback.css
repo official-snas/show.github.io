@@ -1,0 +1,78 @@
+body{
+    background-image: url(pic/grunge-paint-background_1409-1337.jpg);
+}
+.logoimg{
+    height: 25px;
+}
+h1{ 
+    font-size: 90px;  
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size:35px;
+    color: rgb(13, 75, 10);
+    
+}
+.email{
+    word-spacing:5px;
+}
+.full{
+    font-size: 30px;
+    border-radius:10px;
+    padding:5px;
+}
+.full::placeholder{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+textarea{
+    height:50px ;
+    width:100px ;
+}
+.detail{
+    border: 10px solid;
+    box-sizing: content-box;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 700px;
+    margin-top: 70px;
+    background-color: aqua;
+    border-color: rgb(6, 56, 100);
+}
+.feed{
+    font-size:30px;
+    word-spacing: -1px;
+    color: rgb(18, 102, 13);
+}
+textarea{
+    height:150px;
+    width:500px;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+}
+textarea::placeholder{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue;
+}
+.submit{
+    font-size: xx-large;
+    margin-top: 10px;
+    border-radius: 32px;
+    padding: 10px;
+    background-color: gold;
+    color: white;
+    border-color: gold;
+    text-transform: uppercase;
+}
+.submit:hover{
+    transform: scale(1.3);
+    background-color: aquamarine;
+    color:black;
+}
+
